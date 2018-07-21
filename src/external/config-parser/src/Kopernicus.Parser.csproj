@@ -44,7 +44,7 @@
       <HintPath>..\..\..\..\packages\UnityEngine.UI.1.3.1\lib\net35\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-  </ItemGroup>
+  </ItemGroup>  
   <ItemGroup>
     <Compile Include="Attributes\ParserTarget.cs" />
     <Compile Include="Attributes\ParserTargetCollection.cs" />
