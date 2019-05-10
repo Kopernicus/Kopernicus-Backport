@@ -1,5 +1,5 @@
---- Kopernicus/src/external/config-parser/src/Kopernicus.Parser.csproj	2018-08-05 20:24:58.665552562 +0200
-+++ Kopernicus-Backport/patches/src/external/config-parser/src/Kopernicus.Parser.csproj	2018-10-13 16:05:49.950054019 +0200
+--- a/src/external/config-parser/src/Kopernicus.Parser.csproj	2019-05-10 19:02:30.326439772 +0200
++++ b/src/external/config-parser/src/Kopernicus.Parser.csproj	2019-05-10 19:33:06.752869768 +0200
 @@ -17,7 +17,7 @@
      <DebugType>full</DebugType>
      <Optimize>false</Optimize>
@@ -9,7 +9,7 @@
      <ErrorReport>prompt</ErrorReport>
      <WarningLevel>4</WarningLevel>
    </PropertyGroup>
-@@ -25,26 +25,26 @@
+@@ -25,23 +25,23 @@
      <DebugType>pdbonly</DebugType>
      <Optimize>true</Optimize>
      <OutputPath>bin\Release\</OutputPath>
@@ -36,15 +36,4 @@
 +      <HintPath>..\..\..\..\packages\UnityEngine.UI.{BACKPORT}\lib\net35\UnityEngine.UI.dll</HintPath>
        <Private>False</Private>
      </Reference>
--  </ItemGroup>
-+  </ItemGroup>  
-   <ItemGroup>
-     <Compile Include="Attributes\ParserTarget.cs" />
-     <Compile Include="Attributes\ParserTargetCollection.cs" />
-@@ -84,4 +84,4 @@
-   <Target Name="AfterBuild">
-   </Target>
-   -->
--</Project>
-\ Kein Zeilenumbruch am Dateiende.
-+</Project>
+   </ItemGroup>

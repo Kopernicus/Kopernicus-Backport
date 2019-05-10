@@ -1,5 +1,5 @@
---- Kopernicus/src/external/config-parser/src/packages.config	2018-08-05 20:24:58.665552562 +0200
-+++ Kopernicus-Backport/patches/src/external/config-parser/src/packages.config	2018-10-13 16:05:49.950054019 +0200
+--- a/src/external/config-parser/src/packages.config	2019-04-28 21:18:05.562777702 +0200
++++ b/src/external/config-parser/src/packages.config	2019-05-10 19:32:09.466198966 +0200
 @@ -1,6 +1,6 @@
  ﻿<?xml version="1.0" encoding="utf-8"?>
  <packages>
@@ -10,4 +10,3 @@
 +  <package id="UnityEngine" version="{BACKPORT}" targetFramework="net35" />
 +  <package id="UnityEngine.UI" version="{BACKPORT}" targetFramework="net35" />
  </packages>
-\ Kein Zeilenumbruch am Dateiende.
